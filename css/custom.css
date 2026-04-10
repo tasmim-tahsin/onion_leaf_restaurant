@@ -1,0 +1,36 @@
+.logo-text {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #a81574;
+    white-space: nowrap;
+}
+
+/* Optional: style for sticky header */
+header.sticky .logo-text {
+    color: #a81574;
+}
+
+/* Remove gap between navbar and main content on mobile */
+@media (max-width: 991px) {
+    main {
+        margin-top: 50px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 45px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin-top: 40px !important;
+    }
+}
+
+/* Change hamburger menu color to dark */
+header a.open_close {
+    color: #444 !important;
+}
