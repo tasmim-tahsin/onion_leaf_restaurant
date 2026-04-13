@@ -34,3 +34,139 @@ header.sticky .logo-text {
 header a.open_close {
     color: #444 !important;
 }
+
+
+.our-services {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.services-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.services-content .subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.service-item i {
+    font-size: 22px;
+    color: #a81574; /* same gold accent */
+    margin-right: 15px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.service-item h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #222;
+}
+
+.service-item p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.service-item:hover {
+    transform: translateX(5px);
+}
+
+.service-item:hover i {
+    transform: scale(1.2);
+    color: #b32481;
+}
+
+.services-image img {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .services-image {
+        margin-bottom: 40px;
+    }
+}
+
+.why-choose {
+    padding: 80px 80px;
+    background: #ffffff;
+}
+
+.why-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.why-content .subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.why-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.why-item i {
+    font-size: 22px;
+    color: #a81574; /* gold accent */
+    margin-right: 15px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.why-item h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #222;
+}
+
+.why-item p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.why-item:hover {
+    transform: translateX(5px);
+}
+
+.why-item:hover i {
+    transform: scale(1.2);
+    color: #a93781;
+}
+
+.why-image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .why-content {
+        margin-bottom: 40px;
+    }
+}

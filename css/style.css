@@ -881,11 +881,13 @@ a.btn_top {
   border-radius: 3px;
   padding-left: 12px !important;
   padding-right: 12px !important;
+  color: #fff !important;
+  background-color: #a81674;
 }
 a.btn_top:hover {
   border-color: #978667;
   color: #fff !important;
-  background-color: #978667;
+  background-color: #a81674;
 }
 a.btn_top.order {
   border: 1px solid rgba(255, 255, 255, 0);
