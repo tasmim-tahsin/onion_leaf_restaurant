@@ -479,8 +479,8 @@ header.header_in ul#top_menu li a {
 
 header a.open_close {
   position: absolute;
-  right: 10px;
-  top: 2px;
+  right: 15px;
+  top: 25px;
   z-index: 999;
   color: #fff;
   font-size: 32px;
@@ -508,6 +508,7 @@ header.sticky a.open_close,
 
 #logo {
   float: left;
+  padding-left: 20px;
 }
 @media (max-width: 991px) {
   #logo {
@@ -517,7 +518,7 @@ header.sticky a.open_close,
   }
   #logo img {
     width: auto;
-    height: 28px;
+    height: 80px;
   }
 }
 
@@ -526,7 +527,7 @@ header.sticky a.open_close,
 .main-menu {
   position: relative;
   z-index: 9;
-  top: 1px;
+  top: 25px;
   float: right;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -553,12 +554,12 @@ header.sticky a.open_close,
 .main-menu > ul > li > a {
   color: #444;
   padding: 5px 8px;
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-size: 20px;
+  font-size: 1rem;
+  font-weight: 450;
 }
 .main-menu > ul > li:hover > a {
-  color: #978667;
+  color: #a81674;
 }
 
 header.sticky .main-menu > ul > li > a,
@@ -568,7 +569,7 @@ header.header_in .main-menu > ul > li > a {
 header.sticky .main-menu > ul > li:hover > a,
 header.header_in .main-menu > ul > li:hover > a {
   opacity: 1;
-  color: #978667;
+  color: #a81674;
 }
 
 #close_in,
@@ -750,19 +751,19 @@ main {
     text-align: center;
     position: relative;
     padding: 30px 0 25px 0;
-    background-color: #978667;
+    background-color: #ffffff;
   }
   #header_menu a.open_close {
     position: absolute;
     right: 15px;
-    top: 0;
+    top: 12px;
     left: inherit;
     color: #fff !important;
   }
 
   .main-menu ul li a:hover,
   a.show-submenu:hover {
-    color: #978667 !important;
+    color: #a81674 !important;
     background-color: #f9f9f9;
     opacity: 1 !important;
   }
@@ -798,7 +799,7 @@ main {
 
   .main-menu > ul > li.submenu:hover > a:after {
     transform: rotate(180deg);
-    color: #978667;
+    color: #a81674;
   }
 
   .main-menu ul > li.submenu > a:after {
@@ -914,7 +915,7 @@ a.btn_top.order:hover {
 }
 .sticky a.btn_top.order {
   border: 1px solid rgba(255, 255, 255, 0);
-  background-color: #978667;
+  background-color: #a81674;
   color: #fff !important;
 }
 .sticky a.btn_top.order:hover {
